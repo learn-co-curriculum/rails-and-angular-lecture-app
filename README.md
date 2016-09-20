@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To get this application running correctly
 
-Things you may want to cover:
+run:
 
-* Ruby version
+```
+bundle install
+```
+followed by:
+```
+rake db:migrate
+```
+lastly:
+```
+rake bower:install
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To run the app in the browser. Just run
+```
+rails server
+```
