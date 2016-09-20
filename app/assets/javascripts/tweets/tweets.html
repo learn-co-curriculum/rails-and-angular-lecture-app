@@ -1,0 +1,7 @@
+{{vm.name}}
+
+<div ng-include="'tweets/new.html'"></div>
+
+<ul>
+    <li ng-repeat="tweet in vm.tweets track by tweet.id">{{tweet.content}}</li>
+</ul>
